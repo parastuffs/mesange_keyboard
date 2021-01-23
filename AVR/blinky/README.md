@@ -6,7 +6,9 @@
 
 ## Questions
 - How do I know wich input does what?
-- How do I control the embedded LEDs?
+
+## Answers
+- Embedded LEDs are on PB0 (RX) and PD5 (TX)
 
 ## References
 - https://create.arduino.cc/projecthub/milanistef/introduction-to-bare-metal-programming-in-arduino-uno-f3e2b4
