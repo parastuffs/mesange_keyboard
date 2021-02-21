@@ -22,7 +22,7 @@ Where `clueboard/66/rev4` is a [66% keyboard](https://github.com/qmk/qmk_firmwar
 
 However, if you want to create a whole new keyboard, you better copy a complete tree, like the `clueboard/66/rev4` which as a ProMicro implementation.
 
-Check the [firmware](https://github.com/parastuffs/mesange_keyboard/9-keys/firmware) to see how it works, everything is pretty straightforward.
+Check the [firmware](https://github.com/parastuffs/mesange_keyboard/tree/main/9-keys/firmware/9keys) to see how it works, everything is pretty straightforward.
 
 We have the following tree:
 ```
