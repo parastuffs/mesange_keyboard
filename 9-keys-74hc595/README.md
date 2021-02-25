@@ -44,8 +44,7 @@ Anyway, I had **47k** resistors lying around as well, so they'll do the trick.
 Notice that the rows and columns have been swapped compared to the bare-pins 9-keys keyboard.
 This is a consequence of the logic being pushed *from* the columns *to* the rows.
 
-![schematic](figures/schematics.png)custom_matrix.md).
-We are going for a full replacement.
+![schematic](figures/schematics.png)
 
 
 ## Firmware tree
