@@ -14,3 +14,17 @@ The center-to-center distance is supposed to be 1u as well and the edge-to-edge 
 ![spacing](figures/pcb-spacing.png)
 
 The footprints from the `Button_Switch_Keyboard` library have a handy white outline on the `Dwgs.User` layer that delimits the keycap area.
+
+## Build firmware
+The firmware should be placed in qmk's home folder, such as `/home/para/qmk_firmware/keyboards`.
+
+```
+qmk compile -kb macrodeck -km default
+avrdude -F -V -c avr109 -p atmega32u4 -P /dev/ttyACM0 -b 115200 -U flash:w:/home/para/qmk_firmware/.build/macrodeck_default.hex
+```
+
+Don't forget to short the `reset` pin to ground to enable "flashable" mode on the board (bottom two LEDs in red).
+
+## References
+
+[QMK documentation about layers](https://beta.docs.qmk.fm/using-qmk/software-features/feature_layers)
